@@ -1,0 +1,19 @@
+{
+    "name": "fastd/swoole-server",
+    "authors": [
+        {
+            "name": "JanHuang",
+            "email": "bboyjanhuang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "fastd/swoole": "5.0.x-dev",
+        "fastd/http": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "FastD\\SwooleServer\\": "src"
+        }
+    }
+}
